@@ -1,4 +1,5 @@
-#»Øµ÷¹¦ÄÜµÄ·şÎñÆ÷¶Ë´úÂë 
+#å›è°ƒåŠŸèƒ½çš„æœåŠ¡å™¨ç«¯ä»£ç 
+```
 socket.on('nickname', function (data, callback) {
         if (nicknames.indexOf(data) != -1) {
             callback(false);
@@ -9,7 +10,9 @@ socket.on('nickname', function (data, callback) {
             console.log('Nicknames are: ' + nicknames);
         }
     });
-#»Øµ÷¹¦ÄÜµÄ¿Í»§¶Ë´úÂë
+```
+#å›è°ƒåŠŸèƒ½çš„å®¢æˆ·ç«¯ä»£ç 
+```
  jQuery(function ($) { 
         var nickName = $('#nickname');
         var setNicknameForm = $('#set-nickname');
@@ -25,3 +28,4 @@ socket.on('nickname', function (data, callback) {
 	  });
         });
       });
+```
